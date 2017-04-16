@@ -1,1 +1,1 @@
-![Gronare](https://github.com/gronare/gronare.github.io/blob/master/gronare.svg?raw=true)
+![Gronare](https://cdn.rawgit.com/gronare/gronare.github.io/408835de/gronare.svg)
