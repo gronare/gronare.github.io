@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-![gronare](/gronare.svg)
+![gronare](https://cdn.rawgit.com/gronare/gronare.github.io/408835de/gronare.svg)
 
 You can use the [editor on GitHub](https://github.com/gronare/gronare.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
