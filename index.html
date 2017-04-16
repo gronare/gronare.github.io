@@ -4,41 +4,47 @@
   <style>
     body {
       margin: 0;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh; 
+      
     }
     div.container {
+      flex-direction: column;
+      min-height: 100vh; 
       display: flex;
-      flex: 1;
-      justify-content: center;
-      align-items: center;
+      
     }
-    div.container img {
-      margin: 0;
+    div.top {
+      flex: 1;
+      width: 100%;
+      justify-content: center;
+      align-items: center; 
+    }
+    div.top img {
       width: 50%;
     }
-    div.footer {
-      height: 100px;
+    div.bottom {
+      padding-bottom: 6em;
+      width: 100%;
       text-align: center;
     }
-    div.footer a {
+    div.bottom a {
       font-size: 1em;
       text-decoration: none;
       color: black;
       font-family: futura;  
     }
-    div.footer img {
+    div.bottom img {
       height: 1em
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="https://cdn.rawgit.com/gronare/gronare.github.io/408835de/gronare.svg" alt="gronare"/>
-  </div>
-  <div class="footer">
-    <a href="https://github.com/gronare">find me on github <img src="/gronare.github.io/GitHub-Mark-120px-plus.png" alt="github"/></a>
+    <div class="top">
+      <img src="https://cdn.rawgit.com/gronare/gronare.github.io/408835de/gronare.svg" alt="gronare"/>
+    </div>
+    <div class="bottom">
+      <a href="https://github.com/gronare">find me on github <img src="/gronare.github.io/GitHub-Mark-120px-plus.png" alt="github"/></a>
+    </div>
   </div>
 </body>
 </html>
